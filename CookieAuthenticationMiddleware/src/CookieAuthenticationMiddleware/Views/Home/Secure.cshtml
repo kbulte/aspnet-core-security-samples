@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Secure";
+}
+
+<ul>
+    @*The User property of the view and controller is a ClaimsPrincipal*@
+    @foreach (var claim in User.Claims)
+    {
+        <li>@claim.Type <text>: </text>@claim.Value</li>
+    }
+</ul>

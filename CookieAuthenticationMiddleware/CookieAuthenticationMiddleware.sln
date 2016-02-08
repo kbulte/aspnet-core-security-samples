@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{69FA420E-AA93-4713-8E05-4E7BFF977480}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{516693F2-3E28-4C6D-86F8-4A998A31FAA9}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CookieAuthenticationMiddleware", "src\CookieAuthenticationMiddleware\CookieAuthenticationMiddleware.xproj", "{117133FD-2021-4527-B5E5-73FE18B43DED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{117133FD-2021-4527-B5E5-73FE18B43DED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{117133FD-2021-4527-B5E5-73FE18B43DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{117133FD-2021-4527-B5E5-73FE18B43DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{117133FD-2021-4527-B5E5-73FE18B43DED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{117133FD-2021-4527-B5E5-73FE18B43DED} = {69FA420E-AA93-4713-8E05-4E7BFF977480}
+	EndGlobalSection
+EndGlobal
